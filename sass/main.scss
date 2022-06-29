@@ -129,6 +129,13 @@ body {
 	animation: navIremsAnimation 1s both;
 }
 
+//NAV animation offset
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
+	background-color: $dark;
+}
+
 //header
 
 .header {
